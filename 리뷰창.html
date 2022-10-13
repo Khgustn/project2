@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>여행 할때 여기어때</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="./FlexSlider/jquery.flexslider.js"></script>
+	<script src="/resource/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="./FlexSlider/flexslider.css" type="text/css">
+	<script src="./js/jquery-scrollbar.js"></script>
+	<link rel="stylesheet" href="css/swiper.css" type="text/css">
+	<link rel="stylesheet" href="css/swiper.min.css" type="text/css">
+	<script src="js/swiper.js"></script>
+	<script src="js/swiper.min.js"></script>
+	
+	
+</head>
+
+<body>
+	
+
+	<div class="list-group">
+		<a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+		  <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+		  <div class="d-flex gap-2 w-100 justify-content-between">
+			<div>
+			  <h6 class="mb-0">List group item heading</h6>
+			  <p class="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+			</div>
+			<small class="opacity-50 text-nowrap">${fn:split(vo.regdate, ' ')[0]}</small>
+			<small class="opacity-50 text-nowrap">${vo.readhit }</small>
+		</div>
+		</a>
+		
+	</div>
+</body>
+
+</html>
